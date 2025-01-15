@@ -72,12 +72,32 @@ h2 {
     border-radius: 15px;
 }
 
-img {
-    border-radius: 8px;
+.image img, .image {
+    background-color: #F3F3F3;
     width: 200px;
-    height: 300px;
-    left: 215px;
-    top: 215px;
+    height: 185px;
+    margin-left: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cadre{
+    background-color: white;
+    width: 200px;
+    height: 115px;
+    margin-left: 50px;
+    border-bottom-left-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.circle {
+    background-color: #D9D9D9;
+    position: relative;
+    width: 54px;
+    height: 54px;
+    border-radius: 50px;
+    margin-left:210px;
+    bottom:30px
 }
 
 .name {
@@ -104,21 +124,21 @@ img {
 
 }
 
-.linkedin{
+.linkedin {
     width: 18px;
     height: 18px;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.whatsapp{
+.whatsapp {
     width: 18px;
     height: 18px;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.ellipseProfile{
+.ellipseProfile {
     width: 54px;
     height: 54px;
     margin-left: 160px;
@@ -126,13 +146,13 @@ img {
     background-color: #D9D9D9;
 }
 
-footer{
+footer {
     background-color: #3A3A3A;
     width: 1440px;
     height: 70px;
 }
 
-.textFooter{
+.textFooter {
     width: 176px;
     height: 16px;
     margin-left: 632px;
@@ -142,7 +162,7 @@ footer{
     line-height: 16.41px;
 }
 
-.recFooter{
+.recFooter {
     width: 13px;
     height: 27px;
     margin-left: 735px;
@@ -157,3 +177,4 @@ footer{
     font-variation-settings:
         "wdth" 100;
 }
+
