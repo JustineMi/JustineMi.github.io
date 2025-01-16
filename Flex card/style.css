@@ -1,102 +1,91 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #2D4480;
-}
-
-.card{
-    width: 288px;
-    height: 469px;
-    border-radius: 27px;
-    border: 1px #000000;
-    margin: 50px auto;
     display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-h1{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 36px;
-    padding-top: 45px;
-    text-transform: uppercase;
-}
-
-p{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
-    line-height: 32.8px;
-    letter-spacing: 6%;
-    text-transform: uppercase;
-    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-.features{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
-
-.features div{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.features img{
-    margin-right: 20px;
-}
-
-
-.border{
-    margin-top: 17px;
-    font-weight: bolder;
-}
-
-.free{
-    color:#292929;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    margin-top: 5px;
-    letter-spacing: 13%;
-    line-height: 36px;
-}
-
-.forever{
-    color:#2D4480;
-    font-family: 'Allan', serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 36px;
-    margin-left: 70px;
-}
-
-button{
-    color: #253868;
-    background-color: #FFBC0F;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 32.8px;
+.card {
+    width: 300px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
     text-align: center;
-    padding: 15px 0px;
-    width: 181px;
-    height: 68px;
-    border-radius: 27px;
-    margin-top: 20px;
+    padding: 20px 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
     text-transform: uppercase;
-    cursor: pointer;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.features p {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 8px 0;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.features img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.border {
+    height: 1px;
+    width: 100%;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.free {
+    font-size: 22px;
+    font-weight: 800;
+    color: #292929;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.forever {
+    font-family: 'Allan', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2D4480;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    border-radius: 22px;
+    background-color: #FFBC0F;
+    color: #253868;
     border: none;
-    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
 
 .noto-preconnect {
